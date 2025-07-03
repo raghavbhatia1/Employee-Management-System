@@ -15,7 +15,7 @@ def main_menu():
 
 
         choice=input("ENTER YOUR CHOICE(1-4):")
-        if choice=='1':  # we are using '1' this because string can not be compare with integer that is why we are using '1'
+        if choice=='1':  
             add_employee()
         elif choice=='2':
             view_employee()
